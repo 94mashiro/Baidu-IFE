@@ -1,6 +1,9 @@
-body,h1,h2,h3,h4,h5,p,form,ol,ul{margin:0;}
-ol,ul{padding:0;}
-
+body, h1, h2, h3, h4, h5, p, form, ol, ul {
+    margin: 0;
+}
+ol, ul {
+    padding: 0;
+}
 body {
     font: 1em 'Hiragino Sans GB', 'Microsoft YaHei', 微软雅黑, STHeiti, 'WenQuanYi Micro Hei', SimSun, sans-serif;
 }
@@ -29,19 +32,16 @@ header .left img {
     height: 30px;
     vertical-align: middle;
 }
-
 header .left span {
     font-size: 1em;
     font-weight: 400;
 }
-
 header nav {
     /*height: 40px;*/
     display: inline-block;
     float: right;
     margin-right: 50px;
 }
-
 header nav ul li {
     display: inline-block;
     font-size: 0.9em;
@@ -57,43 +57,36 @@ header nav ul li {
     box-sizing: border-box;
     padding-bottom: 20px;
 }
-
 header nav ul li:hover {
     color: #F85054;
     border-bottom: 4px solid #F85054;
 }
-
 header .login {
     color: #F85054;
 }
 header .login img {
     margin-right: 5px;
 }
-
 .section-01 {
     height: 690px;
     background: url(../images/pic-1.jpg) no-repeat;
     background-size: cover;
 }
-
 .section-01 .part {
     padding-top: 220px;
 }
-
 .section-01 .part h1 {
     color: #ffffff;
     font-weight: lighter;
     font-size: 3.5em;
     margin-left: 120px;
 }
-
 .section-01 .part p {
     margin-left: 130px;
     font-weight: lighter;
     color: #ffffff;
     font-size: 1.5em
 }
-
 .section-01 .part input {
     font-size: 2em;
     padding: 7px 100px 7px 100px;
@@ -103,36 +96,31 @@ header .login img {
     border: none;
     color: #ffffff;
 }
-
 .section-02 {
     height: 250px;
-
 }
-
 .section-02 div {
     width: 25%;
     /*height: 100%;*/
     float: left;
     color: #A5A5A5;
     font-size: 0.8em;
-    padding-top: 150px;
+    padding-top: 130px;
     /*margin-left: 10px;*/
     /*margin-right: 10px;*/
     text-align: center;
     position: relative;
     background: url(../images/icon-3.png) no-repeat;
     background-position: center 50px;
-
 }
-
 .section-02 div p {
     /*display: inline-block;*/
     /*margin-left: 40px;*/
-    width: 280px;
+    width: 180px;
     /*margin-top: 180px;*/
     margin: 0 auto;
+    font-size: 1.2em;
 }
-
 .section-02 div span {
     border: 1px solid #A5A5A5;
     position: absolute;
@@ -141,45 +129,124 @@ header .login img {
     width: 0px;
     top: 130px;
     /*display: inline-block;*/
-
     /*float: left;*/
 }
-
 .section-03 {
     height: 360px;
     background: #EDEDED;
     text-align: center;
 }
-
 .section-03 p {
     font-size: 3em;
     color: #9D9D9D;
     padding-top: 30px;
 }
-
 .section-03 img {
     padding-top: 90px;
 }
-
 .section-04 {
     height: 340px;
     background: url(../images/pic-2.jpg) no-repeat;
     background-size: cover;
     text-align: center;
 }
-
 .section-04 h3 {
     font-size: 1.3em;
     color: #ffffff;
     padding-top: 50px;
 }
-
 .section-04 hr {
     border: 1px solid #ffffff;
     width: 30px;
 }
-
 .section-04 p {
     color: #ffffff;
     font-size: 0.7em;
+}
+.section-04 .input {
+    padding-top: 60px;
+}
+.section-04 .input input {
+    margin-left: 30px;
+    padding-left: 10px;
+    padding-right: 50px;
+    font-size: 0.8em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #BD4F4B;
+}
+.section-04 .input .search {
+    padding: 0;
+    width: 230px;
+    height: 35px;
+    font-size: 0.9em;
+    background-color: #BD4F4B;
+    border: 0;
+    color: #ffffff;
+}
+.section-05 {
+    background: #F7F7F7;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+}
+.section-05 .inside {
+    margin-left: 140px;
+    margin-right: 140px;
+    padding-top: 100px;
+}
+.section-05 .inside img {
+    padding-top: 5px;
+}
+.section-05 .inside div {
+    float: left;
+    width: 25%;
+    margin: 0 auto;
+}
+.section-05 .inside p {
+    font-size: 0.9em;
+}
+.section-05 .inside span {
+    color: #A0A0A0;
+    font-size: 0.9em;
+}
+.section-06 {
+    height: 560px;
+    width: 100%;
+}
+.section-06 .left {
+    position: relative;
+    width: 66%;
+    height: 400px;
+    background: url(../images/pic-7.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 160px;
+}
+.section-06 .left p {
+    color: #ffffff;
+    font-size: 1.5em;
+    line-height: 40px;
+}
+.section-06 .left p:nth-child(1) {
+    font-size: 3.6em;
+    line-height: 10px;
+}
+.section-06 .left p:nth-child(2) {
+    font-size: 9em;
+    line-height: 190px;
+}
+.section-06 .left::after {
+    content: '';
+    position: absolute;
+    border-width: 30px;
+    border-style: solid;
+    border-color: transparent #fff transparent transparent;
+    top: 250px;
+    left: 100%;
+    margin-left: -60px;
+}
+.section-06 .right {
+    width: 33%;
+    text-align: center;
 }
