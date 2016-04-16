@@ -253,30 +253,170 @@ header .login img {
     text-align: center;
     display: inline-block;
 }
-
 .section-06 .right .inside {
     width: 70%;
     margin: 0 auto;
 }
-
 .section-06 .right .inside p {
     font-size: 1em;
 }
 .section-06 .right .inside span {
     color: #BD4F4B;
 }
-
 .section-06 .right .inside p:nth-child(2) {
     padding-top: 50px;
     color: #a0a0a0;
     font-size: 0.8em;
     line-height: 30px;
 }
-
 .section-06 .right .inside .more {
     margin-top: 30px;
     color: #BD4F4B;
     background: #ffffff;
     border: 1px solid #BD4F4B;
-    padding:5px 30px 5px 30px;
+    padding: 5px 30px 5px 30px;
+    margin-bottom: 20px;
+}
+.section-06 .right .inside .dot span {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    border: 1px #929293 solid;
+    text-indent: 99999px;
+    overflow: hidden;
+    margin: 0 7px;
+    cursor: pointer;
+}
+.section-06 .right .inside .dot .active, .section-06 .right .inside .dot span:hover {
+    background: #929293;
+}
+.section-07 {
+    width: 100%;
+    height: 520px;
+    text-align: center;
+}
+.section-07 .left {
+    width: 66%;
+    height: 100%;
+    float: left;
+}
+.section-07 .left .red {
+    width: 50%;
+    background: #dd504f;
+    height: 100%;
+    float: left;
+}
+.section-07 .left .white {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+}
+.section-07 .left .inside {
+    margin-top: 160px;
+}
+.section-07 .left .red .inside p {
+    color: #ffffff;
+    font-size: 1.5em;
+}
+.section-07 .left .red .inside hr {
+    width: 30px;
+    margin: 20px auto;
+    border: 1px solid #ffffff;
+}
+.section-07 .left .red .inside input {
+    border: 1px solid #ffffff;
+    background: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 5px 50px;
+}
+.section-07 .left .white .inside p {
+    font-size: 1.5em;
+}
+.section-07 .left .white .inside hr {
+    width: 30px;
+    margin: 20px auto;
+    border: 1px solid #a8a8a8;
+}
+.section-07 .left .white .inside input {
+    border: 1px solid #dd504f;
+    background: none;
+    color: #dd504f;
+    font-size: 1.2em;
+    padding: 5px 50px;
+}
+.section-07 .right {
+    width: 34%;
+    background: url(../images/pic-8.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: inline-block;
+}
+.section-08 {
+    width: 100%;
+    height: 800px;
+    text-align: center;
+}
+.section-08 .top {
+    width: 1000px;
+    margin: 110px auto;
+}
+.section-08 .top h1 {
+    font-size: 1.5em;
+    font-weight: normal;
+}
+.section-08 .top hr {
+    width: 30px;
+    border: 1px solid #dd504f;
+    margin-bottom: 15px;
+}
+.section-08 .top p {
+    color: #b4b4b4;
+    font-size: 0.8em;
+}
+.section-08 .bottom {
+    width: 90%;
+    margin: 0 auto;
+}
+.section-08 .bottom .left {
+    width: 30%;
+    text-align: left;
+    display: inline-block;
+    margin-right: 80px;
+}
+.section-08 .bottom .left .part {
+    margin-bottom: 50px;
+    width: 300px;
+}
+.section-08 .bottom .left .part h2 {
+    color: #828081;
+    font-size: 1em;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.section-08 .bottom .left .part p {
+    color: #c4c2c3;
+    font-size: 0.8em;
+    line-height: 20px;
+}
+.section-08 .bottom .left .part span {
+    color: #c4c2c3;
+    font-size: 0.8em;
+    line-height: 0;
+    float: right;
+}
+.section-08 .bottom .right {
+    width: 900px;
+    display: inline-block;
+}
+.section-08 .bottom .right input[type="text"] {
+    height: 40px;
+    width: 300px;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    background: #e3e3e3;
 }
